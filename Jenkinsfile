@@ -15,10 +15,5 @@ node {
     stage('Docker test'){
       echo "Branch: ${env.BRANCH_NAME}"
     }
-    
-    }
-  }
-  catch (err) {
-    throw err
   }
 }
