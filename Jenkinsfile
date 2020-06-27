@@ -1,5 +1,5 @@
 node {
-  try {
+  
     stage('Checkout') {
       checkout scm
     }
@@ -15,5 +15,5 @@ node {
     stage('Docker test'){
       echo "Branch: ${env.BRANCH_NAME}"
     }
-  }
+
 }
