@@ -13,7 +13,7 @@ node {
       echo "Branch: ${env.BRANCH_NAME}"
     }
     stage('Docker test'){
-      echo "hi"
+      echo "hello"
     }
 
 }
